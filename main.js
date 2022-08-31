@@ -25,10 +25,12 @@ appearAfterDelay();
 document.querySelector('.shape').onclick = function () {
     var top = Math.random() * 400;
     var left = Math.random() * 400;
-    var width = Math.random() * 300;
+    var width = (Math.random() * 200) + 100;
 
     if ( Math.random() > 0.5) {
         document.querySelector('.shape').style.borderRadius = "50%";
+    } else {
+        document.querySelector('.shape').style.borderRadius = "0";
     }
     
     document.querySelector('.shape').style.top = top + "px";
