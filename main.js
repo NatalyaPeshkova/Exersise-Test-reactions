@@ -38,7 +38,6 @@ document.querySelector('.shape').onclick = function () {
     document.querySelector('.shape').style.width = width + "px";
     document.querySelector('.shape').style.height = width + "px";
     document.querySelector('.shape').style.backgroundColor = getRandomColor();
-    document.querySelector('.shape').style.borderColor = getRandomColor();
     document.querySelector('.shape').style.display = "none";
     
     var end = new Date().getTime();

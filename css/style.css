@@ -1,6 +1,7 @@
 .wrapper {
   margin: 0 auto;
   height: auto;
+  font-family: "Roboto", sans-serif;
 }
 
 .shape {
@@ -8,6 +9,5 @@
   height: 200px;
   background-color: green;
   display: none;
-  border: solid 3px blue;
   position: relative;
 }/*# sourceMappingURL=style.css.map */
